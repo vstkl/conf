@@ -1,0 +1,62 @@
+configuration {
+    modi:           "drun"  ;
+    display-drun:   "" ;
+
+    icon-theme:     "Papirus" ;
+    show-icons:     true    ;
+}
+
+window {
+    border: 4;
+    padding: 0 0 0 0 ;
+    width:  30% ;
+    height: 90% ;
+    border-radius: 2;
+    border-color: #ffffff22;
+    background-color: #282828cc ;
+}
+
+element {
+    padding: 5 0 5 10 ;
+}
+
+listview {
+    scrollbar: false ;
+    border:       0px dash 0px 0px ;
+}
+
+inputbar {
+    padding: 5 0 0 0 ;
+}
+
+* {
+
+    font: "FiraCode 14";
+	main: #ffffff;
+    text-color: @main ;
+    background-color: #28282800 ;
+
+    normal-background: #28282800;
+    normal-foreground: #ebdbb2;
+    alternate-normal-background: #28282800;
+    alternate-normal-foreground: @main;
+
+    selected-normal-background: @main;
+    selected-normal-foreground: #282828;
+
+    active-background: #28282800;
+    active-foreground: @main;
+    alternate-active-background: #28282800;
+    alternate-active-foreground: @main;
+
+    selected-active-background: #28282800;
+    selected-active-foreground: @main;
+
+    urgent-background: #28282800;
+    urgent-foreground: @main;
+    alternate-background: #28282800;
+    alternate-foreground: @main;
+    selected-urgent-background: @main;
+    selected-urgent-foreground: @main;
+}
+

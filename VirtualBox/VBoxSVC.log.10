@@ -1,0 +1,340 @@
+00:00:00.008139 main     VirtualBox XPCOM Server 7.0.10_Debian r158379 linux.amd64 (Aug 25 2023 08:52:23) release log
+00:00:00.008143 main     Log opened 2023-09-09T02:28:28.905337000Z
+00:00:00.008144 main     Build Type: release
+00:00:00.008148 main     OS Product: Linux
+00:00:00.008148 main     OS Release: 6.4.0-kali3-amd64
+00:00:00.008149 main     OS Version: #1 SMP PREEMPT_DYNAMIC Debian 6.4.11-1kali1 (2023-08-21)
+00:00:00.008175 main     DMI Product Name: MS-7816
+00:00:00.008183 main     DMI Product Version: 2.0
+00:00:00.008190 main     Firmware type: UEFI
+00:00:00.008337 main     Secure Boot: Disabled
+00:00:00.008374 main     Host RAM: 15937MB (15.5GB) total, 14947MB (14.5GB) available
+00:00:00.008378 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.008379 main     Process ID: 2690
+00:00:00.008379 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.012097 main     IPC socket path: /tmp/.vbox-m-ipc/ipcd
+00:00:00.139404 nspr-2   VirtualBox: object creation starts
+00:00:00.144500 nspr-2   Home directory: '/home/m/.config/VirtualBox'
+00:00:00.146922 nspr-2   Loading settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:00:00.164708 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.167349 nspr-2   HostDnsMonitor: initializing
+00:00:00.183464 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.183479 nspr-2   NAT: resolv.conf: nameserver fdac:3fed:79ab::1
+00:00:00.183511 nspr-2   HostDnsMonitor: updating information
+00:00:00.183533 nspr-2   HostDnsMonitor: old information
+00:00:00.183537 nspr-2     no server entries
+00:00:00.183539 nspr-2     no domain set
+00:00:00.183541 nspr-2     no search string entries
+00:00:00.183543 nspr-2   HostDnsMonitor: new information
+00:00:00.183545 nspr-2     server 1: 192.168.1.1
+00:00:00.183547 nspr-2     server 2: fdac:3fed:79ab::1
+00:00:00.183549 nspr-2     domain: local
+00:00:00.183551 nspr-2     search string 1: local
+00:00:00.322356 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.324924 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.361212 nspr-2   Loading settings file "/mnt/shared/vms/kali/kali.vbox" with version "1.19-linux"
+00:00:00.370125 nspr-2   Loading settings file "/mnt/shared/vms/win/win.vbox" with version "1.19-linux"
+00:00:00.375934 nspr-2   Loading settings file "/mnt/shared/vms/ub/ub.vbox" with version "1.19-linux"
+00:00:00.381229 nspr-2   Loading settings file "/mnt/shared/vms/rtr/rtr.vbox" with version "1.19-linux"
+00:00:00.383820 nspr-2   Loading settings file "/mnt/shared/vms/router/router.vbox" with version "1.19-linux"
+00:00:00.389410 nspr-2   OCI: Local config file '/home/m/.config/VirtualBox/oci_config' does not exist
+00:00:00.389434 nspr-2   OCI: Original config file '/home/m/.oci/config' does not exist
+00:00:00.389437 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:00.389442 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:00.389492 nspr-2   VirtualBox: object created
+00:00:01.443193 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:28:04.388643 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:28:04.487874 nspr-2   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:28:04.494550 nspr-2   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:28:06.629760 nspr-2   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:28:06.634337 nspr-2   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:28:18.135891 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'vm'}, preserve=false aResultDetail=0
+00:28:18.136123 nspr-5   ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not find file for the medium '/mnt/shared/vms/vm/mrRobot-disk1.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:28:31.409055 ApplImp  Saving settings file "/mnt/shared/vms/vm/vm.vbox" with version "1.19-linux"
+00:28:31.560113 ApplImp  Finished saving settings file "/mnt/shared/vms/vm/vm.vbox"
+00:28:31.560272 ApplImp  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:28:31.565183 ApplImp  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:28:31.566137 ApplImp  Saving settings file "/mnt/shared/vms/vm/vm.vbox" with version "1.19-linux"
+00:28:31.668795 ApplImp  Finished saving settings file "/mnt/shared/vms/vm/vm.vbox"
+00:28:31.686344 nspr-8   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:28:31.691006 nspr-8   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:28:32.123690 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:28:32.256759 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:28:56.383220 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:28:57.978965 createImport Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:28:57.985218 createImport Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:28:57.985436 ApplImp  Saving settings file "/mnt/shared/vms/vm/vm.vbox" with version "1.19-linux"
+00:28:58.135861 ApplImp  Finished saving settings file "/mnt/shared/vms/vm/vm.vbox"
+00:28:58.232994 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:28:58.250299 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:28:58.372294 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:28:58.398104 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:01.266090 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:29:01.296295 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:01.460652 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:01.470258 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:05.264191 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:05.292662 nspr-6   Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:29:05.444156 nspr-6   Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:29:05.444359 SaveMediaReg Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:29:05.577531 SaveMediaReg Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:29:05.577681 nspr-6   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:29:05.582262 nspr-6   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:29:05.675377 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:05.706379 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:30.350178 nspr-7   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:29:30.367392 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:30.592089 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:29:30.657517 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:05.002253 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:05.037279 nspr-7   Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:30:05.169077 nspr-7   Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:30:05.330894 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:05.382552 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:10.915142 nspr-6   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:30:10.919991 nspr-6   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:30:12.392416 nspr-7   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:30:12.398633 nspr-7   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:30:20.354070 nspr-2   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:30:20.360025 nspr-2   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:30:20.781282 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:22.477884 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:30:22.638842 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:30.841681 nspr-3   Saving settings file "/mnt/shared/vms/kali/kali.vbox" with version "1.19-linux"
+00:30:30.981490 nspr-3   Finished saving settings file "/mnt/shared/vms/kali/kali.vbox"
+00:30:31.066264 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:35.288567 nspr-8   Launched VM: 939532896 pid: 24393 (0x5f49) frontend: GUI/Qt name: kali
+00:30:35.309187 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:35.573710 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:36.126904 nspr-8   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:30:36.244650 nspr-8   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:30:36.702443 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:36.706177 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:30:36.912530 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:37.154946 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:30:37.623799 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:30:38.112552 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:30:38.126673 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:39.148318 nspr-8   Saving settings file "/mnt/shared/vms/kali/kali.vbox" with version "1.19-linux"
+00:30:39.289842 nspr-8   Finished saving settings file "/mnt/shared/vms/kali/kali.vbox"
+00:30:39.459587 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:39.514472 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:40.183500 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:30:46.529547 nspr-12  Saving settings file "/mnt/shared/vms/kali/kali.vbox" with version "1.19-linux"
+00:30:46.673137 nspr-12  Finished saving settings file "/mnt/shared/vms/kali/kali.vbox"
+00:30:46.757670 nspr-12  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:35.772987 nspr-8   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:31:35.778803 nspr-8   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:31:35.896373 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:35.909756 nspr-2   Launched VM: 1007097440 pid: 25022 (0x61be) frontend: GUI/Qt name: mr-robot
+00:31:35.945461 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:35.983959 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:36.232883 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:36.234711 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:31:36.779342 nspr-9   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:31:36.839003 nspr-10  ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:31:37.133272 nspr-9   Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:31:37.327226 nspr-9   Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:31:37.464246 nspr-8   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:31:37.845835 nspr-12  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:31:37.870932 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:31:44.116528 nspr-4   Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:31:44.410218 nspr-4   Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:31:44.611486 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:31:44.629056 nspr-12  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:31:51.413680 nspr-10  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:31:51.418230 nspr-10  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:31:56.911689 nspr-3   Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:31:57.110570 nspr-3   Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:31:57.232905 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:31:57.233479 nspr-11  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:05.051719 nspr-6   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:32:05.057357 nspr-6   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:32:05.151951 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:32:06.882548 nspr-7   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine.}, preserve=false aResultDetail=0
+00:32:07.047891 nspr-12  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:32:12.997178 nspr-8   Launched VM: 939570288 pid: 25385 (0x6329) frontend: GUI/Qt name: kali
+00:32:13.027938 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:32:13.317418 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:32:13.912592 nspr-11  Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:32:13.982416 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:32:14.470084 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:32:14.471402 nspr-10  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:32:14.913167 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:15.070780 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:20.705286 nspr-8   Saving settings file "/mnt/shared/vms/kali/kali.vbox" with version "1.19-linux"
+00:32:20.906288 nspr-8   Finished saving settings file "/mnt/shared/vms/kali/kali.vbox"
+00:32:21.030029 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:21.767939 nspr-6   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:32:21.772458 nspr-6   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:32:22.066361 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:24.627920 nspr-2   Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:32:24.835150 nspr-2   Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:32:24.984000 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:24.989144 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:38.636718 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:38.636879 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:42.438762 nspr-8   Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:32:42.693433 nspr-8   Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:32:42.838706 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:42.848805 nspr-12  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:43.689708 nspr-12  Saving settings file "/mnt/shared/vms/kali/kali.vbox" with version "1.19-linux"
+00:32:43.889596 nspr-12  Finished saving settings file "/mnt/shared/vms/kali/kali.vbox"
+00:32:44.197366 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:44.223065 nspr-14  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:46.731150 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:49.015764 nspr-13  Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:32:49.227107 nspr-13  Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:32:49.348809 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:49.362532 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:32:49.393541 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:05.333894 nspr-10  Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:33:05.577070 nspr-10  Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:33:05.688190 nspr-15  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:05.695063 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:09.216808 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:35.944489 nspr-5   Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:33:36.185329 nspr-5   Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:33:36.278233 nspr-14  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:36.360764 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:38.337574 nspr-14  Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:33:38.518354 nspr-14  Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:33:38.624929 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:38.631979 nspr-14  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:48.629451 nspr-13  Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:33:48.852018 nspr-13  Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:33:48.953838 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:48.957688 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:52.141301 nspr-15  Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:33:52.361558 nspr-15  Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:33:52.504949 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:52.508245 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:53.491873 nspr-10  Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:33:53.751977 nspr-10  Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:33:53.868989 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:33:53.880716 nspr-11  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:34:03.056607 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:34:03.058355 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:34:04.900239 nspr-14  Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:34:05.093630 nspr-14  Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:34:05.126166 nspr-6   Saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox" with version "1.19-linux"
+00:34:05.318634 nspr-6   Finished saving settings file "/mnt/shared/vms/mr-robot/mr-robot.vbox"
+00:34:05.762526 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:34:05.764582 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:34:06.487410 nspr-15  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:34:06.487792 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:34:09.395107 nspr-6   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:09.400814 nspr-6   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:09.400923 nspr-6   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:09.406608 nspr-6   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:09.410562 nspr-2   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:09.416258 nspr-2   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:09.416367 DeleteVM Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:09.422080 DeleteVM Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:09.597269 nspr-12  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {bc0ec729-79b9-460e-8f8a-052fda0d7f48}}, preserve=false aResultDetail=0
+00:34:09.598763 nspr-7   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {bc0ec729-79b9-460e-8f8a-052fda0d7f48}}, preserve=false aResultDetail=0
+00:34:09.821282 nspr-13  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:34:09.832060 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:34:10.291089 nspr-11  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {bc0ec729-79b9-460e-8f8a-052fda0d7f48}}, preserve=false aResultDetail=0
+00:34:10.291900 nspr-8   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {bc0ec729-79b9-460e-8f8a-052fda0d7f48}}, preserve=false aResultDetail=0
+00:34:10.459302 nspr-15  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:34:10.463782 nspr-11  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:34:10.938979 nspr-8   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:10.944818 nspr-8   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:11.241413 nspr-10  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:11.247168 nspr-10  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:20.274005 nspr-7   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:20.279541 nspr-7   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:26.830018 nspr-12  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:26.835495 nspr-12  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:35.838683 nspr-15  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'vm'}, preserve=false aResultDetail=0
+00:34:35.838910 nspr-15  ERROR [COM]: aRC=VBOX_E_FILE_ERROR (0x80bb0004) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Could not find file for the medium '/mnt/shared/vms/vm/mrRobot-disk1.vmdk' (VERR_FILE_NOT_FOUND)}, preserve=false aResultDetail=-102
+00:34:57.799556 ApplImp  Saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox" with version "1.19-linux"
+00:34:58.086955 ApplImp  Finished saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox"
+00:34:58.087123 ApplImp  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:58.092035 ApplImp  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:58.092271 ApplImp  Saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox" with version "1.19-linux"
+00:34:58.270257 ApplImp  Finished saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox"
+00:34:58.283089 nspr-2   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:34:58.288341 nspr-2   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:34:58.806345 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:34:58.876970 nspr-15  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:35:04.307292 nspr-7   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:35:04.312085 nspr-7   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:35:12.977413 nspr-12  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:35:12.982953 nspr-12  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:35:32.169875 createImport Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:35:32.174331 createImport Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:35:32.174562 ApplImp  Saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox" with version "1.19-linux"
+00:35:32.509781 ApplImp  Finished saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox"
+00:35:32.617167 nspr-11  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:35:32.623310 nspr-12  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:35:35.777030 nspr-9   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:35:35.782037 nspr-9   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:35:35.937085 nspr-7   Launched VM: 268492848 pid: 27215 (0x6a4f) frontend: GUI/Qt name: mrrobot
+00:35:35.974207 nspr-15  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:35:35.988081 nspr-15  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:35:36.261817 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:35:36.338558 nspr-11  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:35:36.811155 nspr-9   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:35:36.877329 nspr-11  ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:35:37.208275 nspr-4   Saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox" with version "1.19-linux"
+00:35:37.403624 nspr-4   Finished saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox"
+00:35:37.405977 nspr-8   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:35:37.896529 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:35:37.917630 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:35:41.883555 nspr-9   Saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox" with version "1.19-linux"
+00:35:42.076434 nspr-9   Finished saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox"
+00:35:42.238706 nspr-15  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:35:42.251156 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:35:43.836007 nspr-5   Saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox" with version "1.19-linux"
+00:35:44.028501 nspr-5   Finished saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox"
+00:35:44.157738 nspr-12  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:35:44.159456 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:49:14.735113 nspr-14  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:49:14.738322 nspr-14  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:49:16.523322 nspr-6   Saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox" with version "1.19-linux"
+00:49:16.677007 nspr-6   Finished saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox"
+00:49:16.752858 nspr-5   Saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox" with version "1.19-linux"
+00:49:16.893658 nspr-5   Finished saving settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox"
+00:49:17.161140 nspr-10  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:17.162887 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:17.938315 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:17.987515 nspr-15  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:18.796322 nspr-5   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:18.801443 nspr-5   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:18.872153 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:22.566269 nspr-3   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:22.572333 nspr-3   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:22.572434 nspr-3   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:22.578176 nspr-3   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:22.586650 DeleteVM Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:22.587672 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {5ee28b60-3d3b-4d68-ba3c-caaa49bfb655}}, preserve=false aResultDetail=0
+00:49:22.594169 DeleteVM Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:22.595452 nspr-8   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:22.600400 nspr-8   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:22.700524 nspr-12  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {5ee28b60-3d3b-4d68-ba3c-caaa49bfb655}}, preserve=false aResultDetail=0
+00:49:22.716791 nspr-9   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {5ee28b60-3d3b-4d68-ba3c-caaa49bfb655}}, preserve=false aResultDetail=0
+00:49:22.834009 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:22.853446 nspr-15  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {5ee28b60-3d3b-4d68-ba3c-caaa49bfb655}}, preserve=false aResultDetail=0
+00:49:22.946886 nspr-12  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:25.729684 nspr-12  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:25.734693 nspr-12  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:25.734782 nspr-12  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:25.739886 nspr-12  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:25.748848 DeleteVM Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:25.749857 nspr-10  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {5de367b4-0aa9-4e43-97c8-92dd5c35eeac}}, preserve=false aResultDetail=0
+00:49:25.756415 DeleteVM Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:25.757602 nspr-12  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:25.763705 nspr-12  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:25.867621 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {5de367b4-0aa9-4e43-97c8-92dd5c35eeac}}, preserve=false aResultDetail=0
+00:49:25.880151 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {5de367b4-0aa9-4e43-97c8-92dd5c35eeac}}, preserve=false aResultDetail=0
+00:49:26.000880 nspr-10  ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {5de367b4-0aa9-4e43-97c8-92dd5c35eeac}}, preserve=false aResultDetail=0
+00:49:26.004572 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:26.098020 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:27.713565 nspr-12  Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:27.719821 nspr-12  Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:27.806872 nspr-14  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:49:28.213755 nspr-3   Saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:49:28.220204 nspr-3   Finished saving settings file "/home/m/.config/VirtualBox/VirtualBox.xml"
+00:49:28.305175 nspr-11  ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0

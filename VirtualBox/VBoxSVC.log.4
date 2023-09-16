@@ -1,0 +1,51 @@
+00:00:00.023229 main     VirtualBox XPCOM Server 7.0.10_Debian r158379 linux.amd64 (Aug 25 2023 08:52:23) release log
+00:00:00.023233 main     Log opened 2023-09-11T20:15:27.177042000Z
+00:00:00.023234 main     Build Type: release
+00:00:00.023238 main     OS Product: Linux
+00:00:00.023239 main     OS Release: 6.4.0-kali3-amd64
+00:00:00.023240 main     OS Version: #1 SMP PREEMPT_DYNAMIC Debian 6.4.11-1kali1 (2023-08-21)
+00:00:00.023261 main     DMI Product Name: MS-7816
+00:00:00.023269 main     DMI Product Version: 2.0
+00:00:00.023276 main     Firmware type: UEFI
+00:00:00.023552 main     Secure Boot: Disabled
+00:00:00.023589 main     Host RAM: 15937MB (15.5GB) total, 15024MB (14.6GB) available
+00:00:00.023605 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.023606 main     Process ID: 2592
+00:00:00.023606 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.031709 main     IPC socket path: /tmp/.vbox-m-ipc/ipcd
+00:00:00.176004 nspr-2   VirtualBox: object creation starts
+00:00:00.182457 nspr-2   Home directory: '/home/m/.config/VirtualBox'
+00:00:00.187430 nspr-2   Loading settings file "/home/m/.config/VirtualBox/VirtualBox.xml" with version "1.14-linux"
+00:00:00.202444 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.205378 nspr-2   HostDnsMonitor: initializing
+00:00:00.205631 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.205641 nspr-2   NAT: resolv.conf: nameserver fdac:3fed:79ab::1
+00:00:00.205678 nspr-2   HostDnsMonitor: updating information
+00:00:00.205692 nspr-2   HostDnsMonitor: old information
+00:00:00.205694 nspr-2     no server entries
+00:00:00.205697 nspr-2     no domain set
+00:00:00.205699 nspr-2     no search string entries
+00:00:00.205701 nspr-2   HostDnsMonitor: new information
+00:00:00.205703 nspr-2     server 1: 192.168.1.1
+00:00:00.205705 nspr-2     server 2: fdac:3fed:79ab::1
+00:00:00.205707 nspr-2     domain: local
+00:00:00.205709 nspr-2     search string 1: local
+00:00:00.317889 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.319846 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.384355 nspr-2   Loading settings file "/mnt/shared/vms/kali/kali.vbox" with version "1.19-linux"
+00:00:00.411071 nspr-2   Loading settings file "/mnt/shared/vms/win/win.vbox" with version "1.19-linux"
+00:00:00.441922 nspr-2   Loading settings file "/mnt/shared/vms/ub/ub.vbox" with version "1.19-linux"
+00:00:00.471178 nspr-2   Loading settings file "/mnt/shared/vms/mrrobot/mrrobot.vbox" with version "1.19-linux"
+00:00:00.498001 nspr-2   Loading settings file "/mnt/shared/vms/remnux/remnux.vbox" with version "1.19-linux"
+00:00:00.502673 nspr-2   OCI: Local config file '/home/m/.config/VirtualBox/oci_config' does not exist
+00:00:00.502697 nspr-2   OCI: Original config file '/home/m/.oci/config' does not exist
+00:00:00.502700 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:00.502705 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:00.502752 nspr-2   VirtualBox: object created
+00:00:01.614688 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:24:10.166689 main     VirtualBox: object deletion starts
+00:24:10.166732 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/mnt/shared/vms/kali/packer-virtualbox-iso-1692725531-disk001.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:24:10.166849 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/mnt/shared/vms/win/metasploitable3-win2k8-disk001.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:24:10.166995 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/mnt/shared/vms/ub/metasploitable3-ub1404-disk001.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:24:10.167065 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/mnt/shared/vms/mrrobot/mrRobot-disk1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:24:10.167476 main     HostDnsMonitor: shutting down ...

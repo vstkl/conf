@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=0.9.4
+Name=arduino-create-agent
+Comment=
+Icon=/home/m/arduino/InstallerIcon.png
+Exec=/home/m/arduino/Arduino_Create_Agent
+Terminal=false

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-notifyd" version="1.0">
+  <property name="applications" type="empty">
+    <property name="known_applications" type="array">
+      <value type="string" value=""/>
+      <value type="string" value="io.snapcraft.Store"/>
+      <value type="string" value="nm-applet"/>
+      <value type="string" value="spotify_spotify-82570700-08d8-4770-89ca-0afce6b9bc3c"/>
+      <value type="string" value="thunar"/>
+      <value type="string" value="Xfce volume control"/>
+      <value type="string" value="xfce4-power-manager"/>
+      <value type="string" value="xfce4-settings-helper"/>
+    </property>
+  </property>
+  <property name="log-max-size-enabled" type="bool" value="true"/>
+</channel>
