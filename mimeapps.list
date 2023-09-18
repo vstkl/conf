@@ -11,3 +11,4 @@ x-scheme-handler/unknown=google-chrome.desktop
 inode/symlink=xfce-text-editor.desktop;
 application/octet-stream=xfce-text-editor.desktop;
 image/png=feh.desktop;
+text/plain=gvim.desktop;

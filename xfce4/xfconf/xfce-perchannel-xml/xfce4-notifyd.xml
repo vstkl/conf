@@ -4,9 +4,20 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value=""/>
+      <value type="string" value="balena-etcher-electron"/>
+      <value type="string" value="FileZilla"/>
       <value type="string" value="io.snapcraft.Store"/>
       <value type="string" value="nm-applet"/>
+      <value type="string" value="org.xfce.Thunar"/>
+      <value type="string" value="spotify_spotify-160e9f74-00ab-485c-adf1-32bc6e1c9dd6"/>
+      <value type="string" value="spotify_spotify-22e3e07f-b0f2-439b-afe4-b0e493c955f5"/>
+      <value type="string" value="spotify_spotify-3d614cf5-6b52-4b68-b47f-73679726caf8"/>
+      <value type="string" value="spotify_spotify-5489fd2c-1388-4388-9b88-ee77844d38ef"/>
       <value type="string" value="spotify_spotify-82570700-08d8-4770-89ca-0afce6b9bc3c"/>
+      <value type="string" value="spotify_spotify-94109f74-07cb-44e3-8c33-c8285b845812"/>
+      <value type="string" value="spotify_spotify-a0557006-596a-4085-bee5-989fc658fc3e"/>
+      <value type="string" value="spotify_spotify-a5d11342-9e59-4314-a35d-4b6fb0a6d052"/>
+      <value type="string" value="spotify_spotify-b4ea92f2-02c4-4fd3-9d16-a41ae56e7a9d"/>
       <value type="string" value="thunar"/>
       <value type="string" value="Xfce volume control"/>
       <value type="string" value="xfce4-power-manager"/>

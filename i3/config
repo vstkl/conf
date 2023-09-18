@@ -12,6 +12,7 @@ set $term --no-startup-id qterminal
 set $shutdown sudo -A shutdown -h now
 set $reboot sudo -A reboot
 
+set $polybar_theme cuts
 # Font for window titles.
 font pango:FiraCode 8
 
@@ -39,9 +40,9 @@ floating_modifier $alt
 exec_always --no-startup-id ~/.config/i3/set_natural_scrolling.sh &
 
 # Polybar 
-exec_always --no-startup-id ~/.config/polybar/launch.sh &
-exec_always --no-startup-id dwall -s bitday 
-bindsym $mod+r exec --no-startup-id ~/.config/polybar/launch.sh &
+exec_always --no-startup-id ~/.config/polybar/launch.sh --$polybar_theme &
+exec_always --no-startup-id dwall -s bitday
+bindsym $mod+r exec --no-startup-id ~/.config/polybar/launch.sh --$polybar_theme &
 bindsym $mod+g exec --no-startup-id killall -q polybar
 
 # Terminal-tilix
@@ -87,8 +88,10 @@ bindsym $mod+v  exec --no-startup-id code
 # exec_always --no-startup-id  wal --vte -s -e -R 
 
 # dmenu 
-bindsym $mod+d exec --no-startup-id  rofi -combi-modi window#drun -show combi -modi combi -show-icons 
-bindsym $mod+Shift+d exec --no-startup-id  "rofi  -combi-modi window#drun  -show combi -modi combi -show-icons  -run-command 'sudo  {cmd}'"
+bindsym $mod+space exec --no-startup-id ~/.config/polybar/$polybar_theme/scripts/launcher.sh 
+# original rofi
+#bindsym $mod+d exec --no-startup-id  rofi -combi-modi window#drun -show combi -modi combi -show-icons 
+
 
 #=========================================================
 
@@ -171,7 +174,7 @@ bindsym $mod+Shift+space floating toggle, resize set 1280 720, move position cen
 workspace_auto_back_and_forth yes
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+d focus mode_toggle
 
 # focus the  container
 bindsym $mod+Shift+a focus parent

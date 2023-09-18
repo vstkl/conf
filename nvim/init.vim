@@ -1,4 +1,7 @@
 set nu rnu
+set tabstop=4
+set shiftwidth=4
+
 set nocompatible
 filetype off 
 call plug#begin()
@@ -140,6 +143,19 @@ endif
 Plug 'Yggdroot/indentLine'
 let g:vim_json_syntax_conceal = 0
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+
+" 
+" Code completion plugin
+Plug 'ycm-core/YouCompleteMe'
+
+Plug 'ryanoasis/vim-devicons'
+" User friendly UI
+Plug 'vim-airline/vim-airline'"
+" Themes
+Plug 'vim-airline/vim-airline-themes'
+
+" Convert various filetypes to be readable in vim
+Plug 'vim-pandoc/vim-pandoc'
 
 " Close Vim-Plug
 call plug#end()

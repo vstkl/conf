@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<Leases version="1.0">
-  <Lease mac="08:00:27:74:7a:4f" id="ff27747a4f000100012c8ea2da080027747a4f" network="0.0.0.0" state="acked">
-    <Address value="10.0.5.2"/>
-    <Time issued="1694230846" expiration="600"/>
-  </Lease>
-</Leases>
