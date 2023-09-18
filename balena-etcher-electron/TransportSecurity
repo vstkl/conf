@@ -1,8 +1,0 @@
-{
-   "01uHLCQNJulECKR/usOWCjdBzbB0E6P82MmzsA3BY3M=": {
-      "expiry": 1726482415.878392,
-      "mode": "force-https",
-      "sts_include_subdomains": true,
-      "sts_observed": 1694946415.878395
-   }
-}
