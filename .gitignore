@@ -1,3 +1,4 @@
+*cache*
 /Code
 /filezilla/
 /google-chrome/
@@ -5,6 +6,7 @@
 /VirtualBox
 /wireshark
 /balena-etcher-electron
+/Docker Desktop
 
 
 
