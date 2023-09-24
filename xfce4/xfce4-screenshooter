@@ -7,7 +7,7 @@ custom_action_command=none
 show_in_folder=true
 action=1
 delay=0
-region=1
+region=3
 show_mouse=1
 show_border=1
 

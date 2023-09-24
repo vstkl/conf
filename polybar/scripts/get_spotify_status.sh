@@ -41,11 +41,20 @@ else
     elif [ "$STATUS" = "Paused"  ]; then
         update_hooks "$PARENT_BAR_PID" 2
         playerctl --player=$PLAYER metadata --format "$FORMAT"
+
     elif [ "$STATUS" = "No player is running"  ]; then
         echo "$STATUS"
     else
         update_hooks "$PARENT_BAR_PID" 1
-        playerctl --player=$PLAYER metadata --format "$FORMAT"
+        TITLE=$(playerctl --player=$PLAYER metadata --format "{{ title }}")
+        ARTIST=$(playerctl --player=$PLAYER metadata --format "{{ artist }}")
+        # playerctl --player=$PLAYER metadata --format "$FORMAT"
+
+        if [ $PLAYER='Netflix' ]; then
+            echo "$TITLE"
+        else
+            echo "$TITLE | $ARTIST"
+        fi
     fi
 fi
 

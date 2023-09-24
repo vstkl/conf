@@ -1,0 +1,518 @@
+[2023-09-19 10:09:01.670] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:09:14.414] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:09:17.001] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:09:20.930] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:09:27.959] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:09:33.275] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:09:43.742] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:09:47.167] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:09:49.761] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:10:28.102] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 10:10:31.783] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-19 12:19:47.256] [error] (mysql)                       query exception:  Error: Column 'option_value' cannot be null
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at Query.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-19 20:18:55.100] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:18:55.118] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:18:55.119] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:18:55.119] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:18:55.120] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:18:55.120] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.824] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.824] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.825] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.825] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.825] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.825] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.826] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.826] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.826] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.826] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.826] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.826] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.826] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.826] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.827] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.827] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-19 20:20:57.827] [error] (mysql)                       Connection fatal error "Error: read ECONNRESET\n    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)\n    at __node_internal_errnoException (node:internal/errors:594:12)\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)"
+[2023-09-20 17:49:18.545] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:01:03.446] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:01:05.892] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:01:06.396] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:01:06.610] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:01:07.202] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:01:29.588] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:01:34.534] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:01:42.389] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:02:11.818] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:02:20.109] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:02:21.396] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:02:22.519] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:02:25.317] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:02:32.448] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.19:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:02:37.841] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:02:40.955] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:02:59.794] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:03:01.485] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:03:13.586] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:03:41.645] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:03:41.703] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:03:54.723] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:04:22.197] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:04:30.873] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:04:42.554] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:04:56.883] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:05:03.129] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:05:08.627] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:05:17.046] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at TLSSocket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:360:25)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:05:24.724] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at TLSSocket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:360:25)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:05:45.384] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at TLSSocket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:360:25)
+    at TLSSocket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:05:58.986] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:06:04.354] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:06:08.391] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:06:10.937] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:06:27.932] [error] (ConnectionInterface)         Error: Access denied for user 'root@localhost'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:06:42.463] [error] (ConnectionInterface)         Error: Invalid username
+    at Client.connect (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:203:13)
+    at app://./js/app.1867274f.js:1:150207
+    at new Promise (<anonymous>)
+    at go.connect (app://./js/app.1867274f.js:1:149082)
+    at go.establish (app://./js/app.1867274f.js:1:148661)
+    at go.forward (app://./js/app.1867274f.js:1:150302)
+    at app://./js/app.1867274f.js:1:152002
+[2023-09-20 18:06:46.375] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:06:55.002] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:07:09.820] [error] (ConnectionInterface)         ConnectionError: Connection lost - Unable to process incoming packet
+    at app://./js/chunk-vendors.b385defa.js:14:16093
+    at te.n (app://./js/chunk-vendors.b385defa.js:221:333518)
+    at Object.onceWrapper (node:events:510:26)
+    at te.emit (node:events:402:35)
+    at te.emit (app://./js/chunk-vendors.b385defa.js:221:333664)
+    at te.socketError (app://./js/chunk-vendors.b385defa.js:221:338452)
+    at app://./js/chunk-vendors.b385defa.js:221:352980
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-09-20 18:07:13.970] [error] (ConnectionInterface)         ConnectionError: Connection lost - Unable to process incoming packet
+    at app://./js/chunk-vendors.b385defa.js:14:16093
+    at te.n (app://./js/chunk-vendors.b385defa.js:221:333518)
+    at Object.onceWrapper (node:events:510:26)
+    at te.emit (node:events:402:35)
+    at te.emit (app://./js/chunk-vendors.b385defa.js:221:333664)
+    at te.socketError (app://./js/chunk-vendors.b385defa.js:221:338452)
+    at app://./js/chunk-vendors.b385defa.js:221:352980
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-09-20 18:07:19.909] [error] (ConnectionInterface)         ConnectionError: Connection lost - Unable to process incoming packet
+    at app://./js/chunk-vendors.b385defa.js:14:16093
+    at te.n (app://./js/chunk-vendors.b385defa.js:221:333518)
+    at Object.onceWrapper (node:events:510:26)
+    at te.emit (node:events:402:35)
+    at te.emit (app://./js/chunk-vendors.b385defa.js:221:333664)
+    at te.socketError (app://./js/chunk-vendors.b385defa.js:221:338452)
+    at app://./js/chunk-vendors.b385defa.js:221:352980
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-09-20 18:07:23.002] [error] (ConnectionInterface)         ConnectionError: Connection lost - Unable to process incoming packet
+    at app://./js/chunk-vendors.b385defa.js:14:16093
+    at te.n (app://./js/chunk-vendors.b385defa.js:221:333518)
+    at Object.onceWrapper (node:events:510:26)
+    at te.emit (node:events:402:35)
+    at te.emit (app://./js/chunk-vendors.b385defa.js:221:333664)
+    at te.socketError (app://./js/chunk-vendors.b385defa.js:221:338452)
+    at app://./js/chunk-vendors.b385defa.js:221:352980
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-09-20 18:07:30.344] [error] (ConnectionInterface)         ConnectionError: Connection lost - Unable to process incoming packet
+    at app://./js/chunk-vendors.b385defa.js:14:16093
+    at te.n (app://./js/chunk-vendors.b385defa.js:221:333518)
+    at Object.onceWrapper (node:events:510:26)
+    at te.emit (node:events:402:35)
+    at te.emit (app://./js/chunk-vendors.b385defa.js:221:333664)
+    at te.socketError (app://./js/chunk-vendors.b385defa.js:221:338452)
+    at app://./js/chunk-vendors.b385defa.js:221:352980
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2023-09-20 18:07:39.259] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:08:04.235] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.79' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:08:05.101] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.79' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:27:47.606] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.79' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:27:59.126] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 18:28:05.860] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:34:03.283] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:34:30.579] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:35:14.544] [error] (ConnectionInterface)         Error: connect ECONNREFUSED 192.168.1.79:3307
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+[2023-09-20 18:43:04.650] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:44:51.046] [error] (ConnectionInterface)         Error: Access denied for user 'root'@'192.168.1.19' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 18:45:03.325] [error] (ConnectionInterface)         Error: All configured authentication methods failed
+    at doNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:865:21)
+    at tryNextAuth (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1082:7)
+    at tryNextAgentKey (/tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1091:11)
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/client.js:1057:15
+    at /tmp/.mount_Beekee0DNYPy/resources/app.asar/node_modules/ssh2/lib/agent.js:1042:15
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+[2023-09-20 19:38:43.366] [error] (ConnectionInterface)         Error: Access denied for user ''@'172.19.0.1' (using password: YES)
+    at Packet.asError (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/packets/packet.js:728:17)
+    at ClientHandshake.execute (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:456:32)
+    at PacketParser.onPacket (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:85:12)
+    at PacketParser.executeStart (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:92:25)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+[2023-09-20 19:44:06.674] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.693] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.693] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.693] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.693] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.694] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.694] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.694] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.695] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.695] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.695] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.696] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.696] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.696] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.696] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.696] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.696] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.696] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.697] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.697] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.697] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.697] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.697] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.698] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.698] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.698] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.698] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
+[2023-09-20 19:44:06.698] [error] (mysql)                       Connection fatal error "Error: Connection lost: The server closed the connection.\n    at Socket.<anonymous> (/tmp/.mount_Beekeem06sjT/resources/app.asar/node_modules/mysql2/lib/connection.js:101:31)\n    at Socket.emit (node:events:390:28)\n    at TCP.<anonymous> (node:net:687:12)"
