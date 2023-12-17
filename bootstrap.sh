@@ -49,7 +49,8 @@ mv $TARGET_PATH/os-release.old /etc/os-release
 # leaving this this disaster here for future warning
 
 # rainbows and sunshine here
-t clone https://github.com/vstkl/dotfiles.git $TARGET_PATH/dotfiles
+git clone https://github.com/vstkl/dotfiles.git $TARGET_PATH/dotfiles
+cp bashrc $HOME/.bashrc
 
 # cp -rf /home/m/.config/* /mypkgs/dotfiles/
 # cp -rf /root/.config/* /mypkgs/dotfiles/
