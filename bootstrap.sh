@@ -48,8 +48,6 @@ mv $TARGET_PATH/os-release.old /etc/os-release
 # leaving this this disaster here for future warning
 
 # rainbows and sunshine here
-git clone https://github.com/vstkl/dotfiles.git $TARGET_PATH/dotfiles
-cp bashrc $HOME/.bashrc
 
 apt install python3 pip neovim
 
@@ -78,6 +76,12 @@ apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-co
 # ln -s /etc/vsconf/ /home/m/.config/
 # ln -s /etc/vsconf/ /root/.config/
 
+
+git clone https://github.com/vstkl/dotfiles.git $TARGET_PATH/dotfiles
+cp bashrc $HOME/.bashrc
+
+mkdir -p $HOME/.config
+cp -rf nvim  $HOME/.config/
 
 cd $DIR
 
