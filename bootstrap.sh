@@ -10,8 +10,7 @@ echo "usual updates..."
 apt update && apt full-upgrade -yf
 echo "install snapper finally and some other cool shit"
 # INSTALL SNAPPER FFS 
-apt install -yf btrfs-progs snapper snapper-gui grub-btrfs wget git rsync dialog neovim tmux 
-
+apt install -yf btrfs-progs snapper snapper-gui grub-btrfs wget git rsync dialog neovim tmux ca-certificates curl gnupg
 # # Maybe later find a way to purge old kernels
 # # get previous kernels
 # D_KERNEL=$(ls /boot   | grep vmlinuz | sed -e 's/vmlinuz-//')
@@ -51,6 +50,22 @@ mv $TARGET_PATH/os-release.old /etc/os-release
 # rainbows and sunshine here
 git clone https://github.com/vstkl/dotfiles.git $TARGET_PATH/dotfiles
 cp bashrc $HOME/.bashrc
+
+apt install python3 pip neovim
+
+# Docker BS
+# Add Docker's official GPG key:
+install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+chmod a+r /etc/apt/keyrings/docker.gpg
+
+# Add the repository to Apt sources:
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  tee /etc/apt/sources.list.d/docker.list > /dev/null
+apt update
+apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # cp -rf /home/m/.config/* /mypkgs/dotfiles/
 # cp -rf /root/.config/* /mypkgs/dotfiles/
