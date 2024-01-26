@@ -24,7 +24,7 @@ apt install -yf btrfs-progs snapper snapper-gui grub-btrfs wget git rsync dialog
 mkdir -p /etc/systemd/system/gdm.service.d
 sudo ln -sf /dev/null /etc/systemd/system/gdm.service.d/disable-wayland.conf
 
-wget http://repo.radeon.com/amdgpu-install/5.7.3/ubuntu/jammy/amdgpu-install_5.7.50703-1_all.deb -O $TARGET_PATH/amdgpu-install.deb
+wget http://repo.radeon.com/amdgpu-install/latest/ubuntu/jammy/amdgpu-install_6.0.60000-1_all.deb -O $TARGET_PATH/amdgpu-install.deb
 apt install $TARGET_PATH/amdgpu-install.deb -yf
 
 # pretend you're ubuntu 
