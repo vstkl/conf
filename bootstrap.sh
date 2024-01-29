@@ -49,7 +49,8 @@ mv $TARGET_PATH/os-release.old /etc/os-release
 
 # rainbows and sunshine here
 
-apt install python3 pip neovim
+apt install python3 pip neovim flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Docker BS
 # Add Docker's official GPG key:
@@ -77,7 +78,7 @@ apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-co
 # ln -s /etc/vsconf/ /root/.config/
 
 
-git clone https://github.com/vstkl/dotfiles.git $TARGET_PATH/dotfiles
+git clone https://github.com/vstkl/conf.git $TARGET_PATH/dotfiles
 cp bashrc $HOME/.bashrc
 
 mkdir -p $HOME/.config
