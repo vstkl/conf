@@ -83,6 +83,33 @@ cp bashrc $HOME/.bashrc
 
 mkdir -p $HOME/.config
 cp -rf nvim  $HOME/.config/
+#!/bin/bash
+
+# Ensure the script is run as root
+if [ "$(id -u)" -ne 0 ]; then
+  echo "This script must be run as root" 1>&2
+  exit 1
+fi
+
+# Define mount points, UUIDs, and filesystem types
+MOUNT_POINT_SDB1="/media/data1"
+UUID_SDB1="348C43678C43232A"
+FS_TYPE_SDB1="ntfs"
+MOUNT_OPTIONS_SDB1="defaults,auto,users,uid=1000,gid=1000,umask=0022,nofail"
+
+MOUNT_POINT_SDB2="/media/shared"
+UUID_SDB2="64EB-69F6"
+FS_TYPE_SDB2="exfat"
+MOUNT_OPTIONS_SDB2="defaults,auto,users,uid=1000,gid=1000,umask=0022,nofail"
+
+# Backup fstab
+cp /etc/fstab /etc/fstab.bak
+
+# Add entries to fstab
+echo "UUID=$UUID_SDB1 $MOUNT_POINT_SDB1 $FS_TYPE_SDB1 $MOUNT_OPTIONS_SDB1 0 0" >> /etc/fstab
+echo "UUID=$UUID_SDB2 $MOUNT_POINT_SDB2 $FS_TYPE_SDB2 $MOUNT_OPTIONS_SDB2 0 0" >> /etc/fstab
+
+echo "fstab has been updated. Mount points for sdb1 and sdb2 added."
 
 cd $DIR
 
