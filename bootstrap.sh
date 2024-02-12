@@ -29,7 +29,8 @@ echo \
 apt update && apt full-upgrade -yf
 echo "install snapper finally and some other cool shit"
 # INSTALL stuff
-apt install -yf btrfs-progs snapper snapper-gui grub-btrfs wget git rsync dialog neovim tmux ca-certificates curl gnupg python3 pip neovim docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin flatpak flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+apt install -yf btrfs-progs snapper snapper-gui grub-btrfs wget git rsync dialog neovim tmux ca-certificates curl gnupg python3 pip neovim docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin flatpak 
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 #
 # # Maybe later find a way to purge old kernels
