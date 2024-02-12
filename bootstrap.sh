@@ -23,8 +23,8 @@ chmod a+r /etc/apt/keyrings/docker.gpg
 
 # Add the repository to Apt sources:
 echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+  $(. /etc/os-release && echo "$debian") stable" | \
   tee /etc/apt/sources.list.d/docker.list > /dev/null
 apt update && apt full-upgrade -yf
 echo "install snapper finally and some other cool shit"
