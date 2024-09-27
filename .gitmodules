@@ -1,0 +1,3 @@
+[submodule "tinted-tmux"]
+	path = tinted-tmux
+	url = https://github.com/tinted-theming/tinted-tmux
